@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Castellated")(type "KiCad")(uri "${KIPRJMOD}/Castellated.pretty")(options "")(descr ""))
+)
