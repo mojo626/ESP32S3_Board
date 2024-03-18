@@ -1953,6 +1953,11 @@
     (uuid ffd9b1c5-b174-4bae-8071-67c01e9b0edb)
   )
 
+  (text "FIX THIS" (at 56.515 26.035 0)
+    (effects (font (size 3 3)) (justify left bottom))
+    (uuid bde8dbd5-7d66-4f58-87c9-dd5e929a4624)
+  )
+
   (label "IO35" (at 121.92 162.56 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 0a33913b-2f57-42c2-95c2-80156e857de7)
@@ -2123,7 +2128,7 @@
     )
     (pin "1" (uuid ce87c75d-7d98-4bad-a8cb-15c148504c52))
     (instances
-      (project "RetroEmulator"
+      (project "ESP32S3_Board"
         (path "/346603ee-a494-4981-9525-b30a58df9ea9"
           (reference "#PWR022") (unit 1)
         )
@@ -2148,7 +2153,7 @@
     )
     (pin "1" (uuid f6f65901-6fb9-4399-bd62-d86661d42c26))
     (instances
-      (project "RetroEmulator"
+      (project "ESP32S3_Board"
         (path "/346603ee-a494-4981-9525-b30a58df9ea9"
           (reference "#PWR010") (unit 1)
         )
@@ -2174,7 +2179,7 @@
     (pin "2" (uuid 34faf953-8cb0-4ae2-9311-89db7b9d661f))
     (pin "1" (uuid b225ea34-4f21-4a1e-b030-eea77b0a76fa))
     (instances
-      (project "RetroEmulator"
+      (project "ESP32S3_Board"
         (path "/346603ee-a494-4981-9525-b30a58df9ea9"
           (reference "C8") (unit 1)
         )
@@ -2191,7 +2196,7 @@
     (property "Value" "2nH" (at 59.69 49.53 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Inductor_SMD:L_0201_0603Metric" (at 59.69 52.07 0)
+    (property "Footprint" "Inductor_SMD:L_0402_1005Metric" (at 59.69 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 59.69 52.07 0)
@@ -2200,7 +2205,7 @@
     (pin "2" (uuid a1898d14-94d5-4450-bcb0-b51ce573bb29))
     (pin "1" (uuid ada1c1ac-aa46-4964-a760-b1db78239bca))
     (instances
-      (project "RetroEmulator"
+      (project "ESP32S3_Board"
         (path "/346603ee-a494-4981-9525-b30a58df9ea9"
           (reference "L1") (unit 1)
         )
@@ -2225,7 +2230,7 @@
     )
     (pin "1" (uuid dd1ec3d7-c4af-47af-9518-24a2a95ca786))
     (instances
-      (project "RetroEmulator"
+      (project "ESP32S3_Board"
         (path "/346603ee-a494-4981-9525-b30a58df9ea9"
           (reference "#PWR07") (unit 1)
         )
@@ -2250,7 +2255,7 @@
     )
     (pin "1" (uuid d5dce142-bab2-43e4-86c7-b1f5765ea21d))
     (instances
-      (project "RetroEmulator"
+      (project "ESP32S3_Board"
         (path "/346603ee-a494-4981-9525-b30a58df9ea9"
           (reference "#PWR019") (unit 1)
         )
@@ -2275,7 +2280,7 @@
     )
     (pin "1" (uuid 9769446c-ac0b-407d-8979-57809c23d385))
     (instances
-      (project "RetroEmulator"
+      (project "ESP32S3_Board"
         (path "/346603ee-a494-4981-9525-b30a58df9ea9"
           (reference "#PWR04") (unit 1)
         )
@@ -2301,7 +2306,7 @@
     (pin "2" (uuid 7021fea7-6e48-4a06-8b55-2c66f79774a1))
     (pin "1" (uuid 74e4030f-ba2e-4d08-9d1b-451c4eb3f3a6))
     (instances
-      (project "RetroEmulator"
+      (project "ESP32S3_Board"
         (path "/346603ee-a494-4981-9525-b30a58df9ea9"
           (reference "R1") (unit 1)
         )
@@ -2326,7 +2331,7 @@
     )
     (pin "1" (uuid 99059b24-71b1-41b8-81f7-364273e96d6c))
     (instances
-      (project "RetroEmulator"
+      (project "ESP32S3_Board"
         (path "/346603ee-a494-4981-9525-b30a58df9ea9"
           (reference "#PWR030") (unit 1)
         )
@@ -2351,7 +2356,7 @@
     )
     (pin "1" (uuid a6d73e45-547c-4112-a3d7-4606bcaafbc5))
     (instances
-      (project "RetroEmulator"
+      (project "ESP32S3_Board"
         (path "/346603ee-a494-4981-9525-b30a58df9ea9"
           (reference "#PWR09") (unit 1)
         )
@@ -2376,7 +2381,7 @@
     )
     (pin "1" (uuid 271d9c9c-6d8e-4f5c-9a31-40a546529913))
     (instances
-      (project "RetroEmulator"
+      (project "ESP32S3_Board"
         (path "/346603ee-a494-4981-9525-b30a58df9ea9"
           (reference "#PWR016") (unit 1)
         )
@@ -2401,7 +2406,7 @@
     )
     (pin "1" (uuid 1c385c9f-3006-4466-98cc-28fddf74918f))
     (instances
-      (project "RetroEmulator"
+      (project "ESP32S3_Board"
         (path "/346603ee-a494-4981-9525-b30a58df9ea9"
           (reference "#PWR014") (unit 1)
         )
@@ -2427,7 +2432,7 @@
     (pin "2" (uuid 170cc67f-a6eb-4025-9a74-f34662406eb4))
     (pin "1" (uuid 5b767105-001f-45a9-bace-0770d4f195a3))
     (instances
-      (project "RetroEmulator"
+      (project "ESP32S3_Board"
         (path "/346603ee-a494-4981-9525-b30a58df9ea9"
           (reference "C12") (unit 1)
         )
@@ -2452,7 +2457,7 @@
     )
     (pin "1" (uuid 67d18e91-1641-497f-b103-46acce582b88))
     (instances
-      (project "RetroEmulator"
+      (project "ESP32S3_Board"
         (path "/346603ee-a494-4981-9525-b30a58df9ea9"
           (reference "#PWR021") (unit 1)
         )
@@ -2478,7 +2483,7 @@
     (pin "2" (uuid 651a6184-a76d-45b2-bb04-1e54edf578fd))
     (pin "1" (uuid 809f1e7c-9c7f-47ab-89c6-53d4ab96dbfc))
     (instances
-      (project "RetroEmulator"
+      (project "ESP32S3_Board"
         (path "/346603ee-a494-4981-9525-b30a58df9ea9"
           (reference "C2") (unit 1)
         )
@@ -2504,7 +2509,7 @@
     (pin "2" (uuid 69ca0c8b-b684-4b52-ae41-cfc2db0abe74))
     (pin "1" (uuid 86d6854a-06eb-4b5d-9856-1f8d5c104bff))
     (instances
-      (project "RetroEmulator"
+      (project "ESP32S3_Board"
         (path "/346603ee-a494-4981-9525-b30a58df9ea9"
           (reference "C11") (unit 1)
         )
@@ -2530,7 +2535,7 @@
     (pin "1" (uuid 3526ee71-2218-4406-8f49-577c007dd166))
     (pin "2" (uuid c7368577-40ea-430f-ad15-03f3525b4f23))
     (instances
-      (project "RetroEmulator"
+      (project "ESP32S3_Board"
         (path "/346603ee-a494-4981-9525-b30a58df9ea9"
           (reference "C6") (unit 1)
         )
@@ -2562,7 +2567,7 @@
     (pin "7" (uuid 2548577a-9f94-40d6-adf1-42eb491898bd))
     (pin "3" (uuid 72d5e900-2ce4-4680-8b34-ddb665631c8b))
     (instances
-      (project "RetroEmulator"
+      (project "ESP32S3_Board"
         (path "/346603ee-a494-4981-9525-b30a58df9ea9"
           (reference "J2") (unit 1)
         )
@@ -2588,7 +2593,7 @@
     (pin "2" (uuid 76e62080-63d4-4654-9bf0-0535d0383c66))
     (pin "1" (uuid 5a1e969b-9480-4987-b5bb-fcca927a848b))
     (instances
-      (project "RetroEmulator"
+      (project "ESP32S3_Board"
         (path "/346603ee-a494-4981-9525-b30a58df9ea9"
           (reference "C14") (unit 1)
         )
@@ -2617,7 +2622,7 @@
     (pin "1" (uuid f8e13b14-6cfd-430d-b252-76cb82c474c0))
     (pin "2" (uuid 5a21db45-ef51-4a81-bb38-e97d93e72796))
     (instances
-      (project "RetroEmulator"
+      (project "ESP32S3_Board"
         (path "/346603ee-a494-4981-9525-b30a58df9ea9"
           (reference "AE1") (unit 1)
         )
@@ -2643,7 +2648,7 @@
     (pin "2" (uuid c3735f4a-9aa0-4ec9-b32b-6fa7f33ed436))
     (pin "1" (uuid 85526cb8-b206-4f9a-8c8b-e6cd9d72da2f))
     (instances
-      (project "RetroEmulator"
+      (project "ESP32S3_Board"
         (path "/346603ee-a494-4981-9525-b30a58df9ea9"
           (reference "L2") (unit 1)
         )
@@ -2669,7 +2674,7 @@
     (pin "2" (uuid a99329d6-e22f-4007-9209-92684fc20777))
     (pin "1" (uuid 99e10eb3-1f89-4df3-87cc-ccd5b5e46e0d))
     (instances
-      (project "RetroEmulator"
+      (project "ESP32S3_Board"
         (path "/346603ee-a494-4981-9525-b30a58df9ea9"
           (reference "C15") (unit 1)
         )
@@ -2695,7 +2700,7 @@
     (pin "1" (uuid f91ca543-89fe-4b10-b89e-774290ab557d))
     (pin "2" (uuid 56032e9d-4c89-43a5-86e2-9647168f84cc))
     (instances
-      (project "RetroEmulator"
+      (project "ESP32S3_Board"
         (path "/346603ee-a494-4981-9525-b30a58df9ea9"
           (reference "C9") (unit 1)
         )
@@ -2721,7 +2726,7 @@
     (pin "2" (uuid 721ecdf8-194c-4b10-b90c-d9cac4ac8c44))
     (pin "1" (uuid 8ecb072d-4a5c-4987-a81b-8f188cab9f24))
     (instances
-      (project "RetroEmulator"
+      (project "ESP32S3_Board"
         (path "/346603ee-a494-4981-9525-b30a58df9ea9"
           (reference "C13") (unit 1)
         )
@@ -2746,7 +2751,7 @@
     )
     (pin "1" (uuid 5e196252-4bd0-489e-b2ee-e5ef787aba9d))
     (instances
-      (project "RetroEmulator"
+      (project "ESP32S3_Board"
         (path "/346603ee-a494-4981-9525-b30a58df9ea9"
           (reference "#PWR029") (unit 1)
         )
@@ -2772,7 +2777,7 @@
     (pin "1" (uuid f122f80f-32b7-401e-b904-7f8f632cd98d))
     (pin "2" (uuid ca126171-5bd5-48b5-b02e-0aa3b8806b03))
     (instances
-      (project "RetroEmulator"
+      (project "ESP32S3_Board"
         (path "/346603ee-a494-4981-9525-b30a58df9ea9"
           (reference "R2") (unit 1)
         )
@@ -2797,7 +2802,7 @@
     )
     (pin "1" (uuid 463bc1e8-f5c3-4755-aff0-e07a6c149490))
     (instances
-      (project "RetroEmulator"
+      (project "ESP32S3_Board"
         (path "/346603ee-a494-4981-9525-b30a58df9ea9"
           (reference "#PWR01") (unit 1)
         )
@@ -2822,7 +2827,7 @@
     )
     (pin "1" (uuid 40028863-9fb0-4f11-96b8-daab3f41d60c))
     (instances
-      (project "RetroEmulator"
+      (project "ESP32S3_Board"
         (path "/346603ee-a494-4981-9525-b30a58df9ea9"
           (reference "#PWR011") (unit 1)
         )
@@ -2847,7 +2852,7 @@
     )
     (pin "1" (uuid 81685cf8-257d-4785-a545-8c6323e4adc1))
     (instances
-      (project "RetroEmulator"
+      (project "ESP32S3_Board"
         (path "/346603ee-a494-4981-9525-b30a58df9ea9"
           (reference "#PWR028") (unit 1)
         )
@@ -2873,7 +2878,7 @@
     (pin "1" (uuid 78a3ef2e-791d-4b10-8eb5-78f91bde2c9f))
     (pin "2" (uuid 58a7659e-a7a9-4c06-8de9-90c2d06d1d4e))
     (instances
-      (project "RetroEmulator"
+      (project "ESP32S3_Board"
         (path "/346603ee-a494-4981-9525-b30a58df9ea9"
           (reference "C4") (unit 1)
         )
@@ -2898,7 +2903,7 @@
     )
     (pin "1" (uuid 62cbca8c-fca5-4a64-b8d9-20cc533fd136))
     (instances
-      (project "RetroEmulator"
+      (project "ESP32S3_Board"
         (path "/346603ee-a494-4981-9525-b30a58df9ea9"
           (reference "#PWR024") (unit 1)
         )
@@ -2923,7 +2928,7 @@
     )
     (pin "1" (uuid 356330b1-2b4f-4f2c-9f2b-745310f3bea5))
     (instances
-      (project "RetroEmulator"
+      (project "ESP32S3_Board"
         (path "/346603ee-a494-4981-9525-b30a58df9ea9"
           (reference "#PWR018") (unit 1)
         )
@@ -2948,7 +2953,7 @@
     )
     (pin "1" (uuid a54b0619-de62-4d7f-ab99-32df836ccb96))
     (instances
-      (project "RetroEmulator"
+      (project "ESP32S3_Board"
         (path "/346603ee-a494-4981-9525-b30a58df9ea9"
           (reference "#PWR06") (unit 1)
         )
@@ -2973,7 +2978,7 @@
     )
     (pin "1" (uuid a7f1df7e-5fb8-4e42-8c03-ef13d2e8595b))
     (instances
-      (project "RetroEmulator"
+      (project "ESP32S3_Board"
         (path "/346603ee-a494-4981-9525-b30a58df9ea9"
           (reference "#PWR026") (unit 1)
         )
@@ -3004,7 +3009,7 @@
     (pin "1" (uuid 86d4f467-ed8f-49cb-b694-a26e0ccac07d))
     (pin "3" (uuid b98cad6b-57dd-4905-a65a-c2c17a0d4f74))
     (instances
-      (project "RetroEmulator"
+      (project "ESP32S3_Board"
         (path "/346603ee-a494-4981-9525-b30a58df9ea9"
           (reference "LED1") (unit 1)
         )
@@ -3029,7 +3034,7 @@
     )
     (pin "1" (uuid 1391cdcc-3a9c-4713-a7a6-bb135c532c9b))
     (instances
-      (project "RetroEmulator"
+      (project "ESP32S3_Board"
         (path "/346603ee-a494-4981-9525-b30a58df9ea9"
           (reference "#PWR05") (unit 1)
         )
@@ -3054,7 +3059,7 @@
     )
     (pin "1" (uuid 9bdb6897-a0f4-46b8-8826-c15f57e2fd71))
     (instances
-      (project "RetroEmulator"
+      (project "ESP32S3_Board"
         (path "/346603ee-a494-4981-9525-b30a58df9ea9"
           (reference "#PWR012") (unit 1)
         )
@@ -3080,7 +3085,7 @@
     (pin "2" (uuid 529f9629-3b7c-4275-b9ab-05cc7474291e))
     (pin "1" (uuid 6b61af37-f253-45f9-81de-9616dddcd2de))
     (instances
-      (project "RetroEmulator"
+      (project "ESP32S3_Board"
         (path "/346603ee-a494-4981-9525-b30a58df9ea9"
           (reference "SW1") (unit 1)
         )
@@ -3105,7 +3110,7 @@
     )
     (pin "1" (uuid 834a060b-68be-4f14-8de1-58e126df700e))
     (instances
-      (project "RetroEmulator"
+      (project "ESP32S3_Board"
         (path "/346603ee-a494-4981-9525-b30a58df9ea9"
           (reference "#PWR08") (unit 1)
         )
@@ -3131,7 +3136,7 @@
     (pin "1" (uuid cdb9f1d0-986f-4b20-9850-f59dda0b4d9f))
     (pin "2" (uuid 2887fb5f-4308-43f1-8f0a-8436a12b01d1))
     (instances
-      (project "RetroEmulator"
+      (project "ESP32S3_Board"
         (path "/346603ee-a494-4981-9525-b30a58df9ea9"
           (reference "C1") (unit 1)
         )
@@ -3156,7 +3161,7 @@
     )
     (pin "1" (uuid 3c5c204c-c503-45af-b34e-5a9b18aa4fbb))
     (instances
-      (project "RetroEmulator"
+      (project "ESP32S3_Board"
         (path "/346603ee-a494-4981-9525-b30a58df9ea9"
           (reference "#PWR015") (unit 1)
         )
@@ -3181,7 +3186,7 @@
     )
     (pin "1" (uuid a0bb424d-864a-474c-b05f-d7ff1efc8c08))
     (instances
-      (project "RetroEmulator"
+      (project "ESP32S3_Board"
         (path "/346603ee-a494-4981-9525-b30a58df9ea9"
           (reference "#PWR023") (unit 1)
         )
@@ -3207,7 +3212,7 @@
     (pin "2" (uuid 14cd7017-da62-41c8-ac6e-a5ce7a169173))
     (pin "1" (uuid ee35ea72-3c95-4af7-b92f-d785aed86c33))
     (instances
-      (project "RetroEmulator"
+      (project "ESP32S3_Board"
         (path "/346603ee-a494-4981-9525-b30a58df9ea9"
           (reference "R4") (unit 1)
         )
@@ -3232,7 +3237,7 @@
     )
     (pin "1" (uuid 56d40c6c-2513-44fe-84f2-f6a56dfc7df6))
     (instances
-      (project "RetroEmulator"
+      (project "ESP32S3_Board"
         (path "/346603ee-a494-4981-9525-b30a58df9ea9"
           (reference "#PWR02") (unit 1)
         )
@@ -3273,7 +3278,7 @@
     (pin "B7" (uuid 4b057d3b-c1d8-41ce-b5d3-d3f36763c162))
     (pin "B9" (uuid 74eb1be2-e6d2-44f4-bee3-cfe77ff4d2f5))
     (instances
-      (project "RetroEmulator"
+      (project "ESP32S3_Board"
         (path "/346603ee-a494-4981-9525-b30a58df9ea9"
           (reference "J1") (unit 1)
         )
@@ -3305,7 +3310,7 @@
     (pin "7" (uuid 348a237d-1cb2-4a4e-8df9-06094bd0055a))
     (pin "3" (uuid 783e577d-5a9d-4345-9f16-326e506b7b92))
     (instances
-      (project "RetroEmulator"
+      (project "ESP32S3_Board"
         (path "/346603ee-a494-4981-9525-b30a58df9ea9"
           (reference "J3") (unit 1)
         )
@@ -3330,7 +3335,7 @@
     )
     (pin "1" (uuid 3f3fc987-78c3-43a2-8667-725279f09744))
     (instances
-      (project "RetroEmulator"
+      (project "ESP32S3_Board"
         (path "/346603ee-a494-4981-9525-b30a58df9ea9"
           (reference "#PWR025") (unit 1)
         )
@@ -3355,7 +3360,7 @@
     )
     (pin "1" (uuid 1f8a0f43-2d4f-4014-8dd8-b28a68ba9d95))
     (instances
-      (project "RetroEmulator"
+      (project "ESP32S3_Board"
         (path "/346603ee-a494-4981-9525-b30a58df9ea9"
           (reference "#PWR013") (unit 1)
         )
@@ -3381,7 +3386,7 @@
     (pin "1" (uuid 4575692a-6a98-4221-b306-75b7b60a7519))
     (pin "2" (uuid 609439c5-caa3-4376-a656-b86176328267))
     (instances
-      (project "RetroEmulator"
+      (project "ESP32S3_Board"
         (path "/346603ee-a494-4981-9525-b30a58df9ea9"
           (reference "C10") (unit 1)
         )
@@ -3406,7 +3411,7 @@
     )
     (pin "1" (uuid d324e1be-7925-411b-aeea-2d7e0660eca1))
     (instances
-      (project "RetroEmulator"
+      (project "ESP32S3_Board"
         (path "/346603ee-a494-4981-9525-b30a58df9ea9"
           (reference "#PWR03") (unit 1)
         )
@@ -3432,7 +3437,7 @@
     (pin "1" (uuid ed75e35d-1df4-43ce-8ba3-4cf8e95811a9))
     (pin "2" (uuid 9f3546a1-1430-4c26-8c15-07f47327fd98))
     (instances
-      (project "RetroEmulator"
+      (project "ESP32S3_Board"
         (path "/346603ee-a494-4981-9525-b30a58df9ea9"
           (reference "C7") (unit 1)
         )
@@ -3458,7 +3463,7 @@
     (pin "2" (uuid cd2f445c-a58c-4ce7-9df7-9807387964a3))
     (pin "1" (uuid d07a9da2-f505-47f5-ac0d-079c34c7d264))
     (instances
-      (project "RetroEmulator"
+      (project "ESP32S3_Board"
         (path "/346603ee-a494-4981-9525-b30a58df9ea9"
           (reference "R3") (unit 1)
         )
@@ -3483,7 +3488,7 @@
     )
     (pin "1" (uuid eda6e973-4184-476b-9d5c-10464d5cccc6))
     (instances
-      (project "RetroEmulator"
+      (project "ESP32S3_Board"
         (path "/346603ee-a494-4981-9525-b30a58df9ea9"
           (reference "#PWR027") (unit 1)
         )
@@ -3511,7 +3516,7 @@
     (pin "1" (uuid 778912b5-0a7b-4c0b-887f-5e4d49245b8d))
     (pin "4" (uuid a72694d4-c620-422b-a257-65463e6313c6))
     (instances
-      (project "RetroEmulator"
+      (project "ESP32S3_Board"
         (path "/346603ee-a494-4981-9525-b30a58df9ea9"
           (reference "Y1") (unit 1)
         )
@@ -3537,7 +3542,7 @@
     (pin "2" (uuid 1129c06b-00d5-4711-8760-881ef579a3c0))
     (pin "1" (uuid 1b458fa7-55cd-4b4a-89d8-243946da162c))
     (instances
-      (project "RetroEmulator"
+      (project "ESP32S3_Board"
         (path "/346603ee-a494-4981-9525-b30a58df9ea9"
           (reference "C3") (unit 1)
         )
@@ -3563,7 +3568,7 @@
     (pin "1" (uuid 38a9d179-1f3c-4a61-9a4b-af2dd6e3194b))
     (pin "2" (uuid 18f8eab2-50b2-492f-aa42-a449656ca182))
     (instances
-      (project "RetroEmulator"
+      (project "ESP32S3_Board"
         (path "/346603ee-a494-4981-9525-b30a58df9ea9"
           (reference "C5") (unit 1)
         )
@@ -3647,7 +3652,7 @@
     (pin "22" (uuid a126a005-b1fe-4c50-95e8-7be125e1c800))
     (pin "23" (uuid 2e0b85f5-d6f4-49d8-a821-6b73920f6a33))
     (instances
-      (project "RetroEmulator"
+      (project "ESP32S3_Board"
         (path "/346603ee-a494-4981-9525-b30a58df9ea9"
           (reference "U1") (unit 1)
         )
@@ -3672,7 +3677,7 @@
     )
     (pin "1" (uuid c716f682-54a4-4143-99dd-9ef9f2795dce))
     (instances
-      (project "RetroEmulator"
+      (project "ESP32S3_Board"
         (path "/346603ee-a494-4981-9525-b30a58df9ea9"
           (reference "#PWR020") (unit 1)
         )
@@ -3698,7 +3703,7 @@
     (pin "2" (uuid d5361e06-d6b3-461b-a845-44924c779f9f))
     (pin "1" (uuid 23b66e09-1e48-45cd-8db2-e050adc2b309))
     (instances
-      (project "RetroEmulator"
+      (project "ESP32S3_Board"
         (path "/346603ee-a494-4981-9525-b30a58df9ea9"
           (reference "SW2") (unit 1)
         )
@@ -3727,7 +3732,7 @@
     (pin "1" (uuid 80530005-da04-4b66-906c-e6bb9329303d))
     (pin "4" (uuid be649f3e-2f38-44ac-8524-62168ea91173))
     (instances
-      (project "RetroEmulator"
+      (project "ESP32S3_Board"
         (path "/346603ee-a494-4981-9525-b30a58df9ea9"
           (reference "U2") (unit 1)
         )
@@ -3752,7 +3757,7 @@
     )
     (pin "1" (uuid 050b472a-d231-40b4-b050-16b1c647d55a))
     (instances
-      (project "RetroEmulator"
+      (project "ESP32S3_Board"
         (path "/346603ee-a494-4981-9525-b30a58df9ea9"
           (reference "#PWR017") (unit 1)
         )
